@@ -11,6 +11,6 @@ variable "region" {
 
 variable "vps_flavor" {
   type        = string
-  default     = "d2-2"
-  description = "The resource model/flavor size for the instance (CPU/RAM/Disk profile)"
+  default     = "vps-1"
+  description = "The resource model/flavor size for the instance (VPS-1 profile)"
 }
